@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DiarioDev</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>DiarioDev</h1>
+    </header>
+
+    <main>
+      <section id="formulario">
+        <h2>Adicionar novo estudo</h2>
+        <input
+          type="text"
+          id="assunto"
+          placeholder="Qual assunto você estudou hoje?"
+        />
+        <input type="number" id="horas" placeholder="Quantas horas?" />
+        <button id="adicionar">Adicionar</button>
+        <ul id="listaRegistros"></ul>
+
+      </section>
+
+      <section id="grafico">
+        <h2>Gráfico</h2>
+        <canvas id="graficoEstudos"></canvas>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
