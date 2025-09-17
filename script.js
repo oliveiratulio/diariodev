@@ -14,6 +14,15 @@ let meuGrafico;
 // Salva no armazenamento local
 function salvarRegistros() {
   localStorage.setItem('registro', JSON.stringify(registro));
+  
+  registro = registro.filter(item => 
+  item && 
+  typeof item.assunto === 'string' && 
+  (typeof item.horas === 'number' || typeof item.horas === 'string')
+).map(item => ({
+  assunto: item.assunto,
+  horas: Number(item.horas)
+}));
 }
 
 // Atualiza a lista na tela
