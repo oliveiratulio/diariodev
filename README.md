@@ -1,3 +1,4 @@
+
 # DiarioDev
 
 DiarioDev é uma aplicação web simples criada para ajudar no controle dos seus estudos: registrar o que estudou, quando e visualizar estatísticas.
@@ -10,7 +11,8 @@ DiarioDev é uma aplicação web simples criada para ajudar no controle dos seus
 - CSS3  
 - JavaScript (ES6+)  
 - DOM API  
-- (Opcional) localStorage para persistência de dados  
+- (Opcional) localStorage para persistência de dados
+- Chart.js: Biblioteca para geração de gráficos interativos.
 
 ---
 
@@ -21,6 +23,34 @@ DiarioDev é uma aplicação web simples criada para ajudar no controle dos seus
 - Estatísticas simples (por ex: número total de sessões, tempo acumulado)  
 - Remover registros antigos  
 - Layout responsivo  
+
+---
+
+
+
+
+ ⚙️ Como Usar
+
+ 1. Clone o repositório:
+
+git clone https://github.com/oliveiratulio/diariodev.git
+
+2. cd diariodev
+
+
+📌 Contribuições
+
+Contribuições são bem-vindas! Se você deseja melhorar o projeto, siga os passos abaixo:
+
+1. Faça um fork deste repositório.
+
+2. Crie uma branch para sua modificação (git checkout -b feature/nova-funcionalidade).
+
+3. Commit suas alterações (git commit -am 'Adiciona nova funcionalidade').
+
+4. Push para a branch (git push origin feature/nova-funcionalidade).
+
+5. Abra um Pull Request
 
 ---
 
@@ -37,3 +67,4 @@ DiarioDev é uma aplicação web simples criada para ajudar no controle dos seus
 
 <img width="1184" height="846" alt="image" src="https://github.com/user-attachments/assets/fd3cac5e-a00c-4b16-b72f-73f2bf10ff95" />
 
+ 
